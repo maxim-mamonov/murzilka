@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+header {
+    div.wrapper {
+        display: block;
+    }
+
+    div.container {
+        width: 1200px;
+        height: 396px;
+        background: url("../img/bg-header.png") 0 0 no-repeat;
+        color: #a39999;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    a.logo-image {
+        background: url("../img/logo-img.png") 0 0 no-repeat;
+        width: 246px;
+        height: 202px;
+        position: absolute;
+        display: inline-block;
+        top: 78px;
+        left: 40px;
+        float: left;
+    }
+
+    a.logo-text {
+        background: url("../img/logo-text.png") 0 0 no-repeat;
+        width: 528px;
+        height: 127px;
+        position: absolute;
+        display: inline-block;
+        top: 102px;
+        left: 318px;
+    }
+
+    span.slug {
+        position: absolute;
+        display: inline-block;
+        top: 243px;
+        left: 331px;
+        font-size: 48px;
+    }
+
+    nav {
+        height: 44px;
+        line-height: 44px;
+        white-space: nowrap;
+        text-align: center;
+        padding-top: 329px;
+        ul {
+            font-size: 22px;
+            display: inline-block;
+            margin: 0 20px 0 12px;
+            padding: 0;
+            li {
+                display: inline-block;
+                a {
+                    display: inline-block;
+                    color: #a39999;
+                    background-color: #fff;
+                    padding: 0 20px;
+                    font-size: 26px;
+                    &:hover {
+                        background-color: #c4cb6d;
+                        color: #5e5b5b;
+                    }
+                }
+            }
+        }
+    }
+}

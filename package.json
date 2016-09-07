@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/maxim-mamonov/murzilka/issues"
   },
-  "homepage": "https://github.com/maxim-mamonov/murzilka"
+  "homepage": "https://github.com/maxim-mamonov/murzilka",
+  "dependencies": {
+    "gulp@": "^3.9.1",
+    "gulp-sass@": "^2.3.2"
+  }
 }

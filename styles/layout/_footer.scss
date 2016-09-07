@@ -1,0 +1,83 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+footer{
+    div.container {
+        width: 1200px;
+        height: 196px;
+        background: url("../img/bg-footer.png") 0 0 no-repeat;
+        color: #777272;
+        margin: 0 auto;
+        position: relative;
+        nav {
+            position: absolute;
+            left: 303px;
+            top: 9px;
+            ul {
+                display: inline-block;
+                margin-right: 55px;
+                vertical-align: top;
+                li {
+                    line-height: 29px;
+                    font-size: 22px;
+                }
+
+            }
+            a {
+                color: #777272;
+            }
+        }
+        ul.contacts {
+            font-size: 16px;
+            display: inline-block;
+            margin: 0 20px 0 12px;
+            padding: 0;
+            position: absolute;
+            top: 133px;
+            left: 210px;
+            li {
+                display: inline-block;
+                margin-right: 95px;
+                .phone:before {
+                    background: url("../img/phone.png") 0 0 no-repeat;
+                    content: ' ';
+                    width: 23px;
+                    height: 24px;
+                    padding-left: 30px;
+                    padding-top: 1px;
+                    padding-bottom: 3px;
+                }
+            }
+        }
+        div.social {
+            position: absolute;
+            top: 55px;
+            right: 38px;
+            a {
+                display: inline-block;
+                margin-right: 20px;
+                width: 48px;
+                height: 48px;
+                .skype {
+                    background: url("../assets/img/skype.png") 0 0 no-repeat;
+                }
+                .facebook {
+                    background: url("../assets/img/facebook.png") 0 0 no-repeat;
+                }
+                .vk {
+                    background: url("../assets/img/vk.png") 0 0 no-repeat;
+                }
+            }
+        }
+        hr {
+            display: inline-block;
+            width: 734px;
+            position: absolute;
+            top: 110px;
+            left: 290px;
+            color: #a39999;
+            border-style: solid;
+            border-width: 0 0 1px 0;
+        }
+    }
+}
