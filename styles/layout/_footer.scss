@@ -34,18 +34,15 @@ footer {
             padding: 0;
             position: absolute;
             top: 133px;
-            left: 210px;
+            left: 237px;
             li {
                 display: inline-block;
                 margin-right: 95px;
-                .phone:before {
-                    background: url("../img/phone.png") 0 0 no-repeat;
-                    content: ' ';
-                    width: 23px;
-                    height: 24px;
-                    padding-left: 30px;
-                    padding-top: 1px;
-                    padding-bottom: 3px;
+                i.phone:before {
+                    position: absolute;
+                    left: -23px;
+                    top: -2px;
+                    font-size: 26px;
                 }
             }
         }
@@ -58,15 +55,8 @@ footer {
                 margin-right: 20px;
                 width: 48px;
                 height: 48px;
-                .skype {
-                    background: url("../assets/img/skype.png") 0 0 no-repeat;
-                }
-                .facebook {
-                    background: url("../assets/img/facebook.png") 0 0 no-repeat;
-                }
-                .vk {
-                    background: url("../assets/img/vk.png") 0 0 no-repeat;
-                }
+                font-size: 50px;
+                color: #777272;
             }
         }
         hr {
