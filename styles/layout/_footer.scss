@@ -2,10 +2,11 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 footer {
+    background: #e2f5f3 url("../img/bg-footer.png") 54% 40% no-repeat;
+
     div.container {
         width: 1200px;
         height: 196px;
-        background: url("../img/bg-footer.png") 0 0 no-repeat;
         color: #777272;
         margin: 0 auto;
         position: relative;
