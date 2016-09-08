@@ -2,7 +2,7 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 header {
-    background: #e2f5f3 url("../img/bg-header.png") 54% 0 no-repeat;
+    background: #e2f5f3 url("/web/img/bg-header.png") 54% 0 no-repeat;
 
     div.wrapper {
         display: block;
@@ -17,7 +17,7 @@ header {
     }
 
     a.logo-image {
-        background: url("../img/logo-img.png") 0 0 no-repeat;
+        background: url("/web/img/logo-img.png") 0 0 no-repeat;
         width: 246px;
         height: 202px;
         position: absolute;
@@ -28,7 +28,7 @@ header {
     }
 
     a.logo-text {
-        background: url("../img/logo-text.png") 0 0 no-repeat;
+        background: url("/web/img/logo-text.png") 0 0 no-repeat;
         width: 528px;
         height: 127px;
         position: absolute;

@@ -1,21 +1,21 @@
 .fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    &.fa-phone:before {
+        content: "\f095";
+    }
+    &.fa-vk:before {
+        content: "\f189";
+    }
+    &.fa-facebook-official:before {
+        content: "\f230";
+    }
+    &.fa-skype:before {
+        content: "\f17e";
+    }
 }
 
-.fa-phone:before {
-  content: "\f095";
-}
-.fa-vk:before {
-    content: "\f189";
-}
-.fa-facebook-official:before {
-    content: "\f230";
-}
-.fa-skype:before {
-    content: "\f17e";
-}
